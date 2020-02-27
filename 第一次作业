@@ -1,0 +1,22 @@
+1.研究方向及其与python相关技术
+研究方向：人体动作和移动轨迹的预测
+Python在研究方向的应用：
+（1）需要大量的维度数组与矩阵运算，可以使用python中的numpy库。
+（2）为了进行时间序列预测分析，可以直接调用Python中的包来构建LSTM模型，比如pybrain, kears, tensorflow, cikit-neuralnetwork等
+（3）使用python构建图，创建图有3种方式：邻接矩阵，邻接集合，邻接字典
+（4）基于python库实现CNN，可进行图像的识别及分类，目前成功案例有python神经网络案例——CNN卷积神经网络实现mnist手写体识别等。使用的开发工具有：numpy，sys，tensorflow等
+2.python在各个应用领域的成功案例和主要的开发工具
+①Web应用程序
+Python也可以用于开发基于Web的应用程序。 一些重要的开发案例是：PythonWikiEngines，Pocoo，PythonBlogSoftware等，如国内的成功应用案例有：豆瓣，知乎等。主要开发工具有：Django，Requsts， Selenium，Pillow。
+②GUI开发
+如果代码永远都只是停留在代码层面，那么其能够实现的功能永远都不方便传播和供大多数人使用，所以将其通过桌面程序包装出来，就很有必要。
+比如我们使用Python写了一个自动签到小程序，写了一个特定网站的采集程序，嗯，觉得很好用，想分享给同事、同学或者其他小伙伴。如何包装这个程序，给他们都能使用呢，最好的做法还是编写打包出GUI的图形用户界面桌面程序，直接将打包好的程序文件发送过去。
+开发工具：Tkinter，是Python的内置模块，无需安装第三方的模块，就可以使用，实现编写一些简单，交互不复杂的GUI程序。PyQt5/PySide2:，Qt的Python封装包，功能强大，可编写复杂的GUI程序。WxPython，是wxWidgets的Python封装包，与PyQt5类似。Kivy，新兴的跨平台GUI开发模块，支持移动端的GUI开发。
+③图像应用
+使用Python可以开发图像应用程序。 开发的应用有：VPython，Gogh，imgSeek等。开发工具：scikit Image，Numpy，Scipy，PIL/ Pillow等。
+④数据分析
+数据分析也是随着大数据的概念再次兴起的一个领域。有了大量的数据，自然需要对其进行数据清理、数据提取和数据分析。在科学计算和数据分析领域，Python一直没有缺席，主要应用在数据可视化等方面。工具：NumPy和Pandas等模块，为数据处理提供了非常大的便利；matplotlib、pyecharts等模块也是非常优秀的数据可视化模块；Jupyter Notebook模块则为数据分析人员提供了一种全新的数据分析流。
+⑤网络爬虫
+应用场景：做数据分析（大数据）将分析出来的结果制成图（饼状图、柱状图。折线图等）；为公司经营决策提供提供策略；将数据应用于公司的网站或者app；
+开发工具：requests，scrapy，pyquery，sqlite3等
+
